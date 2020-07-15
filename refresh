@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo "Downloading latest"
+go get -u github.com/corneredrat/kubectl-which-image/cmd
+
+# kubectl cli runtime has broken packages
+echo "Fixing broken packages"
